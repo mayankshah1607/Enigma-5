@@ -7,6 +7,23 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
+#logo{
+    margin-top: 128px; 
+    width: 300px;
+}
+
+#logo-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    position: absolute;
+    z-index: 1050;
+    width: 100% ;
+}
+
 .bg-custom {
     background-color: rgba(red, green, blue,0);
 }
@@ -28,4 +45,44 @@ body{
 
 .nav-item:hover{
     border-bottom: 2px solid #fff;
+}
+
+#one{
+    height: 100vh;
+    width: auto;
+    background-image: url('./img/Man2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-login{
+    text-align: center;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+#btn-login>a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #000;
+    padding: 6px 0;
+    transition: 0.1s ease-in;
+}
+
+#btn-login>a:hover{
+    text-decoration: none;
+}
+
+#btn-login>a:hover{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+#main-container{
+    margin-bottom: -240px;
 }
