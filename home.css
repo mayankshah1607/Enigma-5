@@ -19,7 +19,7 @@ body{
 }
 
 .navbar{
-    position: absolute;
+    position: fixed;
     z-index: 1050;
     width: 100% ;
 }
