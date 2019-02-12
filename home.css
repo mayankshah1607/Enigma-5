@@ -118,7 +118,7 @@ body{
 }
 
 #about-text {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
@@ -199,7 +199,7 @@ body{
     padding: 10px 20px;
     background-color: rgba(255,255,255,20%);
     transition: 0.1s ease-in;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 12px;
     font-weight: 800;
     font-style: normal;
