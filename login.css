@@ -12,9 +12,10 @@ body{
 }
 
 .enigma_logo{
-    width: 156px;
+    width: 200px;
     height: auto;
 }
+
 
 .login_logo_holder{
     width:100%;
@@ -69,7 +70,48 @@ body{
     justify-content: center;
     align-items: center;
 }
+.modal-content{
+    background-color: #681450;
+}
 
+.modal-title{
+    color: #fff;
+}
+
+.modal-header{
+    border: none;
+}
+
+.modal-footer{
+    border-top: none;
+    justify-content: center;
+}
+
+
+
+.btn-secondary{
+    background: none;
+    border-color: rgba(0,0,0,0);
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.btn-secondary:hover{
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    border-left-color: rgba(0,0,0,0);
+    border-right-color: rgba(0,0,0,0);
+    background: none; 
+}
+
+.btn-secondary:focus{
+    box-shadow: none;
+}
+
+.close{
+    color: #fff;
+    text-shadow: none;
+}
 
 #login-box {
     display: flex;
@@ -92,11 +134,11 @@ body{
     border-radius: 18px;
     width: 100%;
     margin-top: 20px;
-    padding: 8px 18px;
+    padding: 10px 20px;
     background-color: rgba(255,255,255,20%);
 
     font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
     font-style: normal;
     font-stretch: normal;

@@ -47,17 +47,44 @@
                                 <input type="password" placeholder="Password" id="input-box" required>
                                 <br/>
                                 <div id="sign-in">
-                                    <a href="#">Sign In</a>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Log In</button>
                                 </div>
                             </form>
                         </div>
                         <div class="container" id="p-box">
                             <p>Don’t have an account?</p>
-                            <a id="sign-up" href="#">Sign Up</a>
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalScrollableTitle">Create a New Account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                        <input type="email" placeholder="Email" id="input-box" required>
+                        <br/>
+                        <input type="password" placeholder="Password" id="input-box" required>
+                        <br/>
+                        <input type="password" placeholder="Confirm Password" id="input-box" required>
+                        <br/>
+                        <input type="text" placeholder="Registration Number" id="input-box" required>
+                        <br/>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign Up</button>
+                </div>
+            </div>
+            </div>
+      </div>
 </body>
 </html>

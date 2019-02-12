@@ -22,13 +22,10 @@
                   <!-- <a class="navbar-brand" href="#">Hidden brand</a> -->
                   <ul class="navbar-nav ml-auto mt-2 mt-lg-0 navbar-right">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
                       <a class="nav-link" href="#two">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SIGN UP</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">SIGN UP</a>
                     </li>
                     <li class="nav-item">
                             <a class="nav-link" href="#">CONTACT US</a>
@@ -55,24 +52,31 @@
             </div>
         </div>
 
-        <div id="two">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="mx-auto about-text-box">
-                            <h1>About</h1>
-                            <p id="about-text">
-                                ENIGMA is an online cryptic hunt where participants will be given about
-                                25 questions to be cracked with limited amount of time. Enigma 2017 and
-                                2018 were enormously successful with cut-throat competition of 1000+
-                                participants around the globe but a clear winner in the end. However,
-                                the wolf on the hill is never as hungry as the wolf climbing the hill.
-                            </p>
-                        </div>
+        <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Create a New Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                            <input type="email" placeholder="Email" id="input-box" required>
+                            <br/>
+                            <input type="password" placeholder="Password" id="input-box" required>
+                            <br/>
+                            <input type="password" placeholder="Confirm Password" id="input-box" required>
+                            <br/>
+                            <input type="text" placeholder="Registration Number" id="input-box" required>
+                            <br/>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign Up</button>
                     </div>
                 </div>
-            </div>
-        </div>
+                </div>
+          </div>
     
 </body>
 </html>
