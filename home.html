@@ -23,13 +23,13 @@
                   <div class="navbar-brand"><img id='ieee' src='img/ieee_logo.png'/></div>
                   <ul class="navbar-nav ml-auto mt-2 mt-lg-0 navbar-right">
                     <li class="nav-item">
-                      <a class="nav-link" href="#two">ABOUT</a>
+                      <a class="nav-link" href="#" data-toggle="modal" data-target="#aboutModal">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">SIGN UP</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">CONTACT US</a>
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -57,7 +57,7 @@
                 <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Create a New Account</h5>
+                    <h3 class="modal-title" id="exampleModalScrollableTitle">Create a New Account</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -79,13 +79,13 @@
                 </div>
         </div>
 
-        <!--
+
         <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <div class="container mx-auto" id="contact-head">
-                            <h5 class="modal-title" id="exampleModalScrollableTitle">Contact Us:</h5>
+                            <h3 class="modal-title" id="exampleModalScrollableTitle">Contact Us:</h3>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -95,17 +95,17 @@
                         <div class="row">
                             <div class="mx-auto" id="contact-body-holders">
                                 <img src="img/facebook.svg" alt="Facebook-Logo" id="contact-body-logo">
-                                <a>
-                                    <p>IEEE-VIT</p>
+                                <a href="https://www.facebook.com/IEEEVIT/">
+                                    <p>/IEEEVIT/</p>
                                 </a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="mx-auto" id="contact-body-holders">
-                                <img src="img/phone-call.svg" alt="Phone-Logo" id="contact-body-logo">
+                                <img src="img/icons8-phone-filled-100.png" alt="Phone-Logo" id="contact-body-logo">
                                 <a>
-                                    <p>342143234</p>
+                                    <p>9876543210</p>
                                 </a>
                             </div>
                         </div>
@@ -114,18 +114,48 @@
                             <div class="mx-auto" id="contact-body-holders">
                                 <img src="img/computer-screen.svg" alt="Computer-Logo" id="contact-body-logo">
                                 <a>
-                                    <p>sfasfc</p>
+                                    <p>ieeevit@gmail.com</p>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="modal-footer">
-
                     </div>
                 </div>
             </div>
         </div>
-        -->
+
+        <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="container mx-auto" id="contact-head">
+                            <h3 class="modal-title" id="exampleModalScrollableTitle">About Us:</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="mx-auto" id="contact-body-holders">
+                                <p id="about-text-box">
+                                    ENIGMA is an online cryptic hunt where participants will be given about
+                                    25 questions to be cracked with limited amount of time. Enigma 2017 and
+                                    2018 were enormously successful with cutthroat competition of 1000+
+                                    participants around the globe but a clear winner in the end. However,
+                                    the wolf on the hill is never as hungry as the wolf climbing the hill.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="mx-auto"><img id='ieee' src='img/enigma_logo.png'/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     
 </body>
 </html>
