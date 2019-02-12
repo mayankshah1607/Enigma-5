@@ -99,16 +99,18 @@ body{
     text-align: center;
     padding: 10px;
     margin-top: 30px;
+}
 
+#sign-in a{
     color: white;
     font-size: 22px;
     font-weight: 800;
     text-shadow: 2px 2px 4px #000;
     transition: 0.1s ease-in;
-    align-self: center;
+    padding: 6px 8px;
 }
 
-#sign-in:hover{
+#sign-in a:hover{
     text-decoration: none;
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
