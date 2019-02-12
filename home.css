@@ -136,14 +136,6 @@ body{
     display: inline-block;
 }
 
-#input-box:hover {
-    background-color: rgba(255,255,255,33%);
-}
-
-#input-box:focus {
-    outline: none !important;
-}
-
 .modal-content{
     background-color: #681450;
 }
@@ -196,12 +188,12 @@ body{
     border: none;
     -webkit-border-radius: 15px;
     -moz-border-radius: 5px;
-    border-radius: 18px;
+    border-radius: 8px;
     width: 100%;
     margin-top: 20px;
     padding: 10px 20px;
     background-color: rgba(255,255,255,20%);
-
+    transition: 0.1s ease-in;
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     font-weight: 800;
@@ -211,6 +203,52 @@ body{
     letter-spacing: normal;
     text-align: left;
     color: #fff;
+}
+
+::placeholder{
+    color: #D3D3D3;
+    font-weight: 100;
+}
+
+#input-box:hover {
+    background-color: rgba(255,255,255,33%);
+}
+
+#input-box:focus {
+    outline: none !important;
+}
+
+#contact-head {
+    display: flex;
+    padding: 5px;
+    border-bottom: 2px solid white;
+}
+
+#contact-head h1 {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 8px 0px 0px 10px;
+    font-weight: bolder;
+}
+
+#contact-body-holders {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    vertical-align: center;
+}
+
+#contact-body-logo {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+
+#contact-body-holders a p {
+    margin: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 @media only screen and (min-width: 760px) and (max-height: 1024px) {
