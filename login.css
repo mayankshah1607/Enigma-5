@@ -8,13 +8,31 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
 }
 
+.enigma_logo{
+    width: 156px;
+    height: auto;
+}
+
+.login_logo_holder{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+#heading-login{
+    color: #fff;
+    text-align: center;
+}
 .navbar{
     position: fixed;
     z-index: 1050;
-    width: 100% ;
+    width: 100%;
+    font-size: 12px;
 }
 
 .bg-custom {
@@ -52,9 +70,6 @@ body{
     align-items: center;
 }
 
-#main-container{
-    margin-bottom: -200px;
-}
 
 #login-box {
     display: flex;
@@ -74,25 +89,34 @@ body{
     border: none;
     -webkit-border-radius: 15px;
     -moz-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 18px;
     width: 100%;
     margin-top: 20px;
-    padding: 5px 10px;
-    background-color: rgba(0,0,0,33%);
+    padding: 8px 18px;
+    background-color: rgba(255,255,255,20%);
 
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 14px;
+    font-weight: 800;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    color: white;
+    color: #fff;
+}
+
+::placeholder{
+    color: #D3D3D3;
+    font-weight: 100;
 }
 
 #input-box:hover {
-    background-color:  #110c22;
+    background-color: rgba(255,255,255,33%);
+}
+
+#input-box:focus {
+    outline: none !important;
 }
 
 #sign-in{
@@ -103,7 +127,7 @@ body{
 
 #sign-in a{
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 800;
     text-shadow: 2px 2px 4px #000;
     transition: 0.1s ease-in;
@@ -143,6 +167,7 @@ body{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
 }
+
 
 @media only screen and (min-width: 760px) and (max-height: 1024px) {
     #input-box {
