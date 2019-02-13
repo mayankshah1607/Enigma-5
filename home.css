@@ -14,7 +14,7 @@ li{
 }
 
 body{
-    background-image: url("img/BG.png");
+    background-image: url("img/BG.gif");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,6 @@ body{
     position: fixed;
     z-index: 1050;
     width: 100% ;
-    font-size: 12px;
 }
 
 .bg-custom {
@@ -47,7 +46,7 @@ body{
 .navbar-dark .navbar-nav .nav-link{
     color: #fff;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
@@ -190,6 +189,7 @@ body{
 }
 
 #input-box{
+    display: block;
     border: none;
     -webkit-border-radius: 15px;
     -moz-border-radius: 5px;
@@ -264,6 +264,12 @@ body{
     font-size: 20px;
     padding: 20px;
     text-align: justify;
+}
+
+#login-row{
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px; 
 }
 
 @media only screen and (min-width: 760px) and (max-height: 1024px) {

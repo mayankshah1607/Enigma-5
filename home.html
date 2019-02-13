@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel='stylesheet' type='text/css' href='home.css'>
@@ -26,7 +27,10 @@
                       <a class="nav-link" href="#" data-toggle="modal" data-target="#aboutModal">About</a>
                     </li>
                     <li class="nav-item">
+                        <!-- only for using with the modal
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+                        -->
+                        <a class="nav-link" href="signup.html">Sign Up</a>
                     </li>
                     <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact Us</a>
@@ -43,16 +47,13 @@
                 </div>
 
                 <div class='row' id='login-row'>
-                        <div class="col-12" id='btn-login'>
-                            <div id='btn-login'>
-                                <a href='login.html'>Log In</a>
-                            </div>
-                        </div>
-                    </div>
+                        <a class="btn btn-secondary" href='login.html'>Log In</a>
                 </div>
             </div>
         </div>
 
+
+        <!-- Sign up Modal
         <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
@@ -64,13 +65,9 @@
                     </div>
                     <div class="modal-body">
                             <input type="email" placeholder="Email" id="input-box" required>
-                            <br/>
                             <input type="password" placeholder="Password" id="input-box" required>
-                            <br/>
                             <input type="password" placeholder="Confirm Password" id="input-box" required>
-                            <br/>
                             <input type="text" placeholder="Registration Number" id="input-box" required>
-                            <br/>
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign Up</button>
@@ -78,6 +75,7 @@
                 </div>
                 </div>
         </div>
+        -->
 
 
         <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal" aria-hidden="true">
@@ -155,7 +153,5 @@
                 </div>
             </div>
         </div>
-
-    
 </body>
 </html>

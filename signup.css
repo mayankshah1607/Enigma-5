@@ -1,4 +1,4 @@
-html{
+input{
     scroll-behavior: smooth;
 }
 
@@ -27,7 +27,7 @@ body{
 }
 
 #heading-login{
-    margin-top: 200px;
+    margin-top: 100px;
     color: #fff;
     text-align: center;
 }
@@ -45,7 +45,7 @@ body{
 .navbar-dark .navbar-nav .nav-link{
     color: #fff;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
