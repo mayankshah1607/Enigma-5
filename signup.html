@@ -9,9 +9,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <link rel='stylesheet' type='text/css' href='login.css'>
+    <link rel='stylesheet' type='text/css' href='signup.css'>
 
-    <title>Enigma 5.0 | Login</title>
+    <title>Enigma 5.0 | Sign Up</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-custom">
@@ -38,7 +38,7 @@
                 -->
                 <div class='row'>
                     <div class='col-12' id='heading-login'>
-                        <h4>Log into your account</h4>
+                        <h4>Register and be a part of the mystery</h4>
                     </div>
                 </div>
                 <div class="row">
@@ -47,18 +47,20 @@
                             <form method="get" id="form-box">
                                 <input type="email" placeholder="Email" id="input-box" required>
                                 <input type="password" placeholder="Password" id="input-box" required>
+                                <input type="email" placeholder="Email" id="input-box" required>
+                                <input type="password" placeholder="Password" id="input-box" required>
                                 <div id="sign-in">
-                                    <a class="btn-secondary" href="#">Log In</a>
+                                    <a class="btn-secondary" href="#">Sign Up</a>
                                 </div>
                             </form>
                         </div>
                         <div class="container" id="p-box">
-                            <p>Don’t have an account?</p>
+                            <p>Already have an account?</p>
 
-                            <!-- only for the modal
-                            <a class="btn btn-secondary" href="signup.html" data-toggle="modal">Sign Up</a>
+                            <!-- for the modal only
+                            <a class="btn btn-secondary" href="#signUpModal" data-toggle="modal">Log In</a>
                             -->
-                            <a class="btn btn-secondary" href="signup.html">Sign Up</a>
+                            <a class="btn btn-secondary" href="login.html">Log In</a>
                         </div>
                     </div>
                 </div>
@@ -77,9 +79,13 @@
                 </div>
                 <div class="modal-body">
                         <input type="email" placeholder="Email" id="input-box" required>
+                        <br/>
                         <input type="password" placeholder="Password" id="input-box" required>
+                        <br/>
                         <input type="password" placeholder="Confirm Password" id="input-box" required>
+                        <br/>
                         <input type="text" placeholder="Registration Number" id="input-box" required>
+                        <br/>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign Up</button>

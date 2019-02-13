@@ -1,4 +1,4 @@
-html{
+input{
     scroll-behavior: smooth;
 }
 
@@ -27,7 +27,7 @@ body{
 }
 
 #heading-login{
-    margin-top: 350px;
+    margin-top: 250px;
     color: #fff;
     text-align: center;
 }
