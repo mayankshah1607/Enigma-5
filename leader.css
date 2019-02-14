@@ -73,8 +73,17 @@ li{
     display: block;
     justify-content: center;
     align-items: center;
-    margin: 10px 20px 0px 20px;
-    width: 250px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#lead-text {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 2px 20px purple;
 }
 
 .table {
@@ -82,19 +91,7 @@ li{
 }
 
 thead {
-    padding-bottom: 100px;
-}
-
-thead>tr {
-    padding: 100px;
-    object-fit: contain;
-    border-radius: 10px;
-    background-color: black;
-    opacity: 0.16;
-}
-
-thead>tr>td{
-    color: white;
+    border-spacing: 50px 50px;
 }
 
 tr {
@@ -107,15 +104,28 @@ td {
 
 }
 
+thead>tr {
+    padding: 100px;
+    object-fit: contain;
+    border-radius: 20px;
+    background-color: rgba(255,255,255, 16%);
+}
 
-@media only screen and (min-width: 760px) and (max-height: 1024px) {
+thead>tr>td{
+    color: white;
+}
+
+
+
+
+@media only screen and (min-width: 760px) {
 
 
     #main-container{
         display: block;
         justify-content: center;
         align-items: center;
-        margin: 150px 20px 0px 20px;
+        margin: 150px 300px 0px 300px;
         width: 100%;
     }
 
