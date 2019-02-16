@@ -37,7 +37,6 @@ li{
 
 .bg-custom {
     background-color: #1b191d;
-    opacity: 0.6;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -202,6 +201,12 @@ li{
     justify-content: center;
 }
 
+#enigma-logo-modal{
+    width: 156px!important;
+    height: auto!important;
+    display: block!important;
+}
+
 #hint-head {
     display: flex;
     padding: 5px;
@@ -235,7 +240,6 @@ li{
 
     .bg-custom{
         background-color: transparent;
-        opacity: 1;
     }
 
     #logo{
