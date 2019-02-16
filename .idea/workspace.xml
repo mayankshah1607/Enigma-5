@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc097aad-ad68-4bd9-9bff-3f349acc99d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/achieve.html" beforeDir="false" afterPath="$PROJECT_DIR$/achieve.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leader.html" beforeDir="false" afterPath="$PROJECT_DIR$/leader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/achieve.css" beforeDir="false" afterPath="$PROJECT_DIR$/achieve.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leader.css" beforeDir="false" afterPath="$PROJECT_DIR$/leader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ques.css" beforeDir="false" afterPath="$PROJECT_DIR$/ques.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ques.html" beforeDir="false" afterPath="$PROJECT_DIR$/ques.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,11 +18,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="591">
               <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leader.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1955">
+              <caret line="118" column="43" lean-forward="true" selection-start-line="118" selection-start-column="43" selection-end-line="122" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/achieve.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="40" column="14" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="40" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/achieve.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="137" column="18" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ques.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ques.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -40,8 +85,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logo-</find>
-      <find>sign</find>
       <find>p-</find>
       <find>iee</find>
       <find>nav-item</find>
@@ -70,6 +113,8 @@
       <find>main</find>
       <find>logo</find>
       <find>img</find>
+      <find>ieee</find>
+      <find>hint</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -89,9 +134,6 @@
         <option value="$PROJECT_DIR$/timer.js" />
         <option value="$PROJECT_DIR$/Enigma | there is time.html" />
         <option value="$PROJECT_DIR$/ques-hint-bulb.js" />
-        <option value="$PROJECT_DIR$/ques.css" />
-        <option value="$PROJECT_DIR$/achieve.css" />
-        <option value="$PROJECT_DIR$/leader.css" />
         <option value="$PROJECT_DIR$/signup.html" />
         <option value="$PROJECT_DIR$/glitch.css" />
         <option value="$PROJECT_DIR$/glitch.min.js" />
@@ -100,8 +142,11 @@
         <option value="$PROJECT_DIR$/email-template.html" />
         <option value="$PROJECT_DIR$/achieve.html" />
         <option value="$PROJECT_DIR$/home.css" />
-        <option value="$PROJECT_DIR$/ques.html" />
         <option value="$PROJECT_DIR$/leader.html" />
+        <option value="$PROJECT_DIR$/ques.html" />
+        <option value="$PROJECT_DIR$/achieve.css" />
+        <option value="$PROJECT_DIR$/leader.css" />
+        <option value="$PROJECT_DIR$/ques.css" />
       </list>
     </option>
   </component>
@@ -166,12 +211,12 @@
       <workItem from="1550008647536" duration="27907000" />
       <workItem from="1550113805016" duration="9503000" />
       <workItem from="1550153740736" duration="1946000" />
-      <workItem from="1550295187296" duration="6023000" />
+      <workItem from="1550295187296" duration="8111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71356000" />
+    <option name="totallyTimeSpent" value="73444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="988" extended-state="6" />
@@ -248,13 +293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ques.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="213" selection-start-line="213" selection-end-line="225" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/signup.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2352">
@@ -276,13 +314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
           <caret line="75" column="94" selection-start-line="75" selection-start-column="94" selection-end-line="75" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2323">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
@@ -313,10 +344,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/achieve.css">
+    <entry file="file://$PROJECT_DIR$/leader.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
+        <state relative-caret-position="591">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -327,17 +358,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ques.html">
+    <entry file="file://$PROJECT_DIR$/achieve.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="359">
+          <caret line="137" column="18" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leader.html">
+    <entry file="file://$PROJECT_DIR$/leader.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="1955">
+          <caret line="118" column="43" lean-forward="true" selection-start-line="118" selection-start-column="43" selection-end-line="122" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ques.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ques.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
         </state>
       </provider>
     </entry>

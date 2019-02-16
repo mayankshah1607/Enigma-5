@@ -14,6 +14,7 @@ body{
 #ieee{
     width: 156px;
     height: auto;
+    display: none;
 }
 
 .navbar-toggler{
@@ -35,7 +36,8 @@ li{
 }
 
 .bg-custom {
-    background-color: transparent;
+    background-color: #1b191d;
+    opacity: 0.6;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -73,7 +75,7 @@ li{
     display: block;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 2vh;
     width: 100%;
 }
 
@@ -117,6 +119,18 @@ thead>tr>td{
 @media only screen and (min-width: 760px) {
 
 
+    .bg-custom {
+        background-color: transparent;
+        opacity: 1;
+    }
+
+
+    #ieee{
+        width: 156px;
+        height: auto;
+        display: block;
+    }
+
     #main-container{
         display: block;
         justify-content: center;
@@ -124,6 +138,7 @@ thead>tr>td{
         margin: 150px 300px 0px 300px;
         width: 100%;
     }
+
 
     .row {
         margin-top: 100px;

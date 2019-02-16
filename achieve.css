@@ -35,7 +35,8 @@ li{
 }
 
 .bg-custom {
-    background-color: transparent;
+    background-color: #1b191d;
+    opacity: 0.6;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -131,6 +132,11 @@ li{
 }
 
 @media only screen and (min-width: 760px) and (max-height: 1024px) {
+
+    .bg-custom {
+        background-color: transparent;
+        opacity: 1;
+    }
 
 
     #main-container{
