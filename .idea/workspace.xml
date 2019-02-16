@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc097aad-ad68-4bd9-9bff-3f349acc99d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/achieve.css" beforeDir="false" afterPath="$PROJECT_DIR$/achieve.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,19 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ques.css">
+        <entry file="file://$PROJECT_DIR$/after_signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="241" column="38" selection-start-line="241" selection-start-column="38" selection-end-line="241" selection-end-column="38" />
+            <state relative-caret-position="704">
+              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/achieve.css">
+        <entry file="file://$PROJECT_DIR$/after_signup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+            <state relative-caret-position="198">
+              <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -71,11 +71,11 @@
       <find>contact</find>
       <find>logo</find>
       <find>img</find>
-      <find>ieee</find>
       <find>hint</find>
       <find>p-box</find>
       <find>main</find>
       <find>heading</find>
+      <find>ieee</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -100,7 +100,6 @@
         <option value="$PROJECT_DIR$/email-template.html" />
         <option value="$PROJECT_DIR$/achieve.html" />
         <option value="$PROJECT_DIR$/leader.html" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/home.css" />
         <option value="$PROJECT_DIR$/ques.html" />
         <option value="$PROJECT_DIR$/signup.html" />
@@ -108,6 +107,9 @@
         <option value="$PROJECT_DIR$/leader.css" />
         <option value="$PROJECT_DIR$/ques.css" />
         <option value="$PROJECT_DIR$/achieve.css" />
+        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/after_signup.html" />
+        <option value="$PROJECT_DIR$/after_signup.css" />
       </list>
     </option>
   </component>
@@ -122,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,7 +136,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,12 +174,13 @@
       <workItem from="1550008647536" duration="27907000" />
       <workItem from="1550113805016" duration="9503000" />
       <workItem from="1550153740736" duration="1946000" />
-      <workItem from="1550295187296" duration="9816000" />
+      <workItem from="1550295187296" duration="10056000" />
+      <workItem from="1550339029386" duration="1588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75149000" />
+    <option name="totallyTimeSpent" value="76977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="988" extended-state="6" />
@@ -298,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="114" column="108" selection-start-line="114" selection-start-column="108" selection-end-line="114" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/signup.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -319,17 +315,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="230" column="1" selection-start-line="230" selection-start-column="1" selection-end-line="230" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leader.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="121" column="38" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/achieve.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -340,10 +336,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/achieve.css">
+    <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+        <state relative-caret-position="589">
+          <caret line="149" column="14" lean-forward="true" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
+          <folding>
+            <element signature="e#3770#3777#1" expanded="true" />
+            <element signature="e#4976#4983#1" expanded="true" />
+            <element signature="e#7341#7348#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="185" selection-start-line="185" selection-end-line="189" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/after_signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/after_signup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
         </state>
       </provider>
     </entry>
