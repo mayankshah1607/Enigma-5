@@ -12,6 +12,7 @@ body{
 }
 
 #ieee{
+    display: none;
     width: 156px;
     height: auto;
 }
@@ -36,7 +37,6 @@ li{
 
 .bg-custom {
     background-color: #1b191d;
-    opacity: 0.6;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -133,9 +133,15 @@ li{
 
 @media only screen and (min-width: 760px) and (max-height: 1024px) {
 
+
+    #ieee{
+        display: block;
+        width: 156px;
+        height: auto;
+    }
+
     .bg-custom {
         background-color: transparent;
-        opacity: 1;
     }
 
 
